@@ -1,0 +1,9 @@
+@media only screen and (max-width: 991px) {}
+    body {
+      background: url(assits/back.jpg)no-repeat;
+    }
+    
+    .hoss{
+        opacity: .9;
+    }
+

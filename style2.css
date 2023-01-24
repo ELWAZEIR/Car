@@ -1,0 +1,36 @@
+.bg-light{
+    background-image: url(assits/w.jpg);
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 100px;
+}
+.countainer{
+    display :grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 1rem;
+    margin: 100px  auto;
+}
+.right,.left{
+    background-color:rgb(219 219 219 / 17%);
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+    width: 85%;
+    margin: auto;
+}
+
+
+@media (max-width:800px){
+    .countainer{
+        display: block !important;
+    }
+    .left{
+        margin-top: 50px;
+    }
+   
+}
+

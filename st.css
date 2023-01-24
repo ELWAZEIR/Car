@@ -1,0 +1,180 @@
+body {font-family: Arial, Helvetica, sans-serif;
+max-width: 100%;
+overflow-x: hidden;
+}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+#logo img
+{
+    width: 100px;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+}
+.icool{
+  border-left :.5px solid #0f07073d ;
+  
+    padding-left: 15px;
+    height: 100%;
+}
+
+a .i{
+  color: rgb(72, 70, 81);
+}
+.red{
+  
+  background-color: rgb(252, 16, 16);
+  color: aliceblue !important;
+}
+.nav2{
+  background-color: rgb(225, 228, 230);
+  height: 150px;
+  padding: 0 0 0 0 !important;
+}
+.twoPht{
+  justify-content: center;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: white;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background:#c5c5c5;
+  cursor: pointer;
+}
+
+.css{
+  background-color: #228dcb;
+  height: 350px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.csspu{
+  height: 40px;
+}
+.formy{
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+.line{
+  text-align: center;
+  width: 23%;
+  height: 11px;
+  background-color: #228dcb;
+  
+}
+
+.card1{
+  text-align: -webkit-center;
+  height: 300px;
+  color: aliceblue;
+  background: url(assits/crd1.png)no-repeat;
+}
+
+.card2{
+  text-align: -webkit-center;
+  height: 300px;
+  color: aliceblue;
+  background: url(assits/crdl.png)no-repeat;
+}
+.textcard{
+  background-color: #fcaa00;
+  font-family: "Roboto",sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.66rem;
+  overflow: hidden;
+  color: #000;
+  width: 255px;
+  text-shadow: none;
+}
+.textcard1{
+font-size: large;
+font-weight: bolder;
+}
+
+.line2{
+  text-align: center;
+  width: 5%;
+  height: 11px;
+  background-color: #228dcb;
+}
+
+.line3{
+  text-align: center;
+  width: 20%;
+  height: 11px;
+  background-color: #228dcb;
+}
+.tt{
+  font-weight: 900;
+  font-size: x-large;
+}
+
